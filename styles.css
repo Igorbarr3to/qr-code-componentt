@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+@media screen and (max-width:375px) {   
+    .card {
+        margin: 27px;
+    }
+}
+
+.card {
+    width: 320px;
+    height: 499px;
+    background-color: #FFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 40px 16px;
+    box-shadow: 0px 25px 25px rgba(31, 49, 79, 0.047);
+}
+
+.QR{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 16px;
+    gap: 16px;
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+    color: #1F314F;
+}
+
+.description p {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #68778D;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
